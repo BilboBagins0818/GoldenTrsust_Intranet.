@@ -40,3 +40,5 @@ router.get('/gtidirectory', checkNotAuthenticated, async function(req, res) { })
 router.use('/users', gtiDirectoryRouter);
 
 export default router;
+
+
